@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Bootstrap HW, UCF Bootcamp</title>
+	
+		<!-- Adds the icon in the browser title -->
+		<link rel="icon" type="image/jpg" href="https://s-media-cache-ak0.pinimg.com/736x/dc/9d/4b/dc9d4bf8e5a043004f953e9ac25dbcbd--college-graduation-school-spirit.jpg">
+
+		<meta charset="UTF-8">
+
+		<!--Viewport -->
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<!-- BOOTSRAP, Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #d3d3d3">
+
+	<!-- This is the navBar -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	  <!-- This is the container for the navBar -->
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      
+	      <a style="background-color: green;color: white" class="navbar-brand" href="index.html">Your Name</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="index.html">About</a></li>
+	       	<li><a href="portfolio.html">Portfolio</a></li>
+	    	<li><a href="contact.html">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	    </div>
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- End Nav Bar -->
+
+	<!-- This is the start of the page's container -->
+	<div class="container">
+
+		<!-- ROW #1 -->
+		<div class="row">			
+
+			<!-- Start "About Me", Column #1 -->
+			<div style="background-color: white" class="col-md-8">
+				<h1 style="margin-top: 25px; margin-bottom: 25px">Contact</h1>
+				
+				<!-- Bootstrap Form -->
+				<form class="form-horizontal">
+				  <div class="form-group">
+				    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+				    <div class="col-sm-10">
+				      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
+				    <div class="col-sm-10">
+				      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+				    </div>
+				  </div>
+
+				  <!-- Start "Remember Me button that is not needed"
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <div class="checkbox">
+				        <label>
+				          <input type="checkbox"> Remember me
+				        </label>
+				      </div>
+				    </div>
+				  </div>
+
+				   End "Remember Me" button -->
+
+				   <!-- Enter comments area -->
+				   <div class="form-group">
+				    <label for="comment" class="col-sm-2 control-label">Message</label>
+				   		<div class="col-sm-10">
+					  		<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+				   </div>
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button style="background-color: green;color: white" type="submit" class="btn btn-default">Submit</button>
+				    </div>
+				  </div>
+				</form>
+				
+			</div>
+			<!-- End "About Me", Column #1 -->
+
+			<!-- COLUMN #2 -->
+			<div class="col-md-4" style="margin-top: 0px">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Connect with Me</h3>
+				  </div>
+				  <div class="panel-body">
+				    <img src="github-logo.png" alt="github logo" style="width:95px">
+				    <img src="LinkedIn_logo.png" alt="github logo" style="width:75px">
+				    <img src="stackoverflow.png" alt="github logo" style="width:95px">
+				  </div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- BOOTSTRAP Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
